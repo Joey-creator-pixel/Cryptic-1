@@ -16,7 +16,7 @@ A fully customizable bot built with discord.js
 <div align=center>
 
   <a href="https://discord.gg/DFZv2Zh">
-    <img src="https://discordapp.com/api/guilds/709992782252474429/widget.png?style=shield" alt="shield.png">
+    <img src="https://discordapp.com/api/guilds/705344500507345017/widget.png?style=shield" alt="shield.png">
   </a>
 
   <a href="https://github.com/discordjs">
