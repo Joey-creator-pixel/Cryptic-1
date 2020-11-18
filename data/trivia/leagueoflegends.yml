@@ -1,5 +1,3 @@
-# Written by JennJenn
-# Original file from: https://github.com/Cog-Creators/Red-DiscordBot/blob/V3/develop/redbot/cogs/trivia/data/lists/leagueoflegends.yaml
 questions:
 - question: Who is scared of Jinx because she always wants to hug him?
   answers:
