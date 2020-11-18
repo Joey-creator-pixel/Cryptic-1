@@ -1,5 +1,3 @@
-# Written by KrisDLuna, Iris, Slackeffect, and Falzar
-# Original file from: https://github.com/Cog-Creators/Red-DiscordBot/blob/V3/develop/redbot/cogs/trivia/data/lists/finalfantasy.yaml
 questions:
 - question: (Brave Exvius) The Veritas originally comprised of how many members?
   answers:
