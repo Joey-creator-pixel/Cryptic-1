@@ -1,4 +1,3 @@
-# Original file from: https://github.com/Cog-Creators/Red-DiscordBot/blob/V3/develop/redbot/cogs/trivia/data/lists/gameofthrones.yaml
 questions:
 - question: What are the official words of House Arryn?
   answers:
