@@ -16,7 +16,7 @@ module.exports = class GitHubCommand extends Command {
     const embed = new MessageEmbed()
       .setTitle('GitHub Link')
       .setDescription(oneLine`
-        Click [here]() to to visit my GitHub repository!
+        Click [here](https://github.com/romanbeard112/Cryptic) to to visit my GitHub repository!
         Please support me by starring ⭐ the repo, and feel free to comment about issues or suggestions!
       `)
       .addField('Other Links',
