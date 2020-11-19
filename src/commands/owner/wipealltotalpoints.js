@@ -12,7 +12,7 @@ module.exports = class WipeAllTotalPointsCommand extends Command {
       description: 'Wipes all members\' points and total points in the server with the provided ID.',
       type: client.types.OWNER,
       ownerOnly: true,
-      examples: ['wipealltotalpoints 709992782252474429']
+      examples: ['wipealltotalpoints 705344500507345017']
     });
   }
   run(message, args) {
