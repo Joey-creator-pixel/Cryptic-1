@@ -11,12 +11,12 @@ module.exports = class SetCrownScheduleCommand extends Command {
       aliases: ['setcs', 'scs'],
       usage: 'setcrownschedule <cron>',
       description: stripIndent`
-        Sets the schedule for Cryptics's crown role rotation. 
+        Sets the schedule for Cryptic's crown role rotation. 
         The format is cron-style:
         \`\`\`*    *    *    *    *
         ┬    ┬    ┬    ┬    ┬
         │    │    │    │    │
-        │    │    │    │    └day of week (0 - 7)
+        │    │    │    │    └ day of week (0 - 7)
         │    │    │    └───── month (1 - 12)
         │    │    └────────── day of month (1 - 31)
         │    └─────────────── hour (0 - 23)
@@ -27,7 +27,7 @@ module.exports = class SetCrownScheduleCommand extends Command {
         'If you need additional help building your cron, please check out this website: <https://crontab.guru/#>. ' + 
         `Enter no schedule to clear the current \`crown schedule\`.
         A \`crown role\` must also be set to enable role rotation.
-        **Please Note:** To prevent potential Discord API abuse, minutes and seconds will always be set to \`0\`.,
+        **Please Note:** To prevent potential Discord API abuse, minutes and seconds will always be set to \`0\`.`,
       type: client.types.ADMIN,
       userPermissions: ['MANAGE_GUILD'],
       examples: ['setcrownschedule 0 21 * * 3,6', 'setcrownschedule 0 0 15 * *']
